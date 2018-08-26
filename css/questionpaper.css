@@ -1,0 +1,30 @@
+body {
+	background: 
+  -webkit-background-size: cover;
+  text-align: center;
+  background-size: cover;		/* make sure IE centers the page too */
+}
+h1{
+	color: black;
+    text-shadow: 2px 2px 4px #4d90fe;
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+h2{
+	color: black;
+    text-shadow: 2px 2px 4px #4d90fe;
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+h3{
+	color: black;
+    text-shadow: 2px 2px 4px #4d90fe;
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+.button {
+	background-color: #00728B;
+	border: 1px solid #032472;
+	color: #FFF;
+	font-family: Arial;
+	padding: 3px;
+	text-decoration: none;
+}

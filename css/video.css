@@ -1,0 +1,44 @@
+iframe  {
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    background-color: #777;
+	display:block;
+}
+
+h1 {
+	position:relative;
+	top: 25px;
+	left:40px;
+	font-family: 'Electrolize';
+	font-style: normal;
+	font-weight: 400;
+	  src: local('Electrolize'), local('Electrolize-Regular'), url(http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
+	 color:white;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 50;
+	left: 300;
+	width: 50%;
+	height: 50%;
+}
+@font-face {
+  font-family: 'Electrolize';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Electrolize'), local('Electrolize-Regular'), url(http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+
+body {
+	background: #310404 url(http://web-sonick.zz.mu/images/sl/red_texture.jpg) repeat top left;
+	font-family: 'Electrolize';
+}
+
